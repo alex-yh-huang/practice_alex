@@ -1,3 +1,4 @@
-from demo import foo
+from demo.foo import add
+import pytest
 def test_add():
-    assert foo.add(1, 2) == 3
+    assert add(1, 2) == 3
